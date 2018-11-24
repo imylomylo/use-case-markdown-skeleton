@@ -1,4 +1,4 @@
-Use Case: Name of use case.
+Use Case: Dice Table Setup
 =================================
 **Actors**: Dealer
 
