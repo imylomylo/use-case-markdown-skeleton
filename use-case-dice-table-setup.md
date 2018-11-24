@@ -20,7 +20,7 @@ Typical course of events:
 | 5. Dealer waits until the transaction has been confirmed |  |
 | 6. Dealer queries the system for list of tables | 7. System responds with list of tables |
 | 8. Dealer chooses the table from the list to fund and adds funds to the table | 9.  System responds with a transaction id |
-
+| 10. Dealer waits until the transaction has been confirmed, then the table is funded (ready) | |
 
 
 Alternative Courses:
