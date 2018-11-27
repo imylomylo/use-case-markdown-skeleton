@@ -19,8 +19,9 @@ Typical course of events:
 | 3. Dealer broadcasts the rawtransaction | 4. The system responds with a transaction id |
 | 5. Dealer waits until the transaction has been confirmed |  |
 | 6. Dealer queries the system for list of tables | 7. System responds with list of tables |
-| 8. Dealer chooses the table from the list to fund and adds funds to the table | 9.  System responds with a transaction id |
-| 10. Dealer waits until the transaction has been confirmed, then the table is funded (ready) | |
+| 8. Dealer chooses the table from the list to fund and adds funds to the table | 9.  System responds with a raw transaction |
+| 10. Dealer broadcasts the rawtransaction | 11. The system responds with a transaction id |
+| 12. Dealer waits until the transaction has been confirmed, then the table is funded (ready) |  |
 
 
 Alternative Courses:
